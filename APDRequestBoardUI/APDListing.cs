@@ -243,6 +243,24 @@ namespace APDRequestBoardUI
             return output;
         }
 
+        private void linkLabel1_LinkClicked(object sender, System.Windows.Forms.LinkLabelLinkClickedEventArgs e)
+        {
+            try
+            {
+                VisitLink();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Gagal membuka laman web!");
+            }
+        }
+
+        private void VisitLink()
+        {
+            System.Diagnostics.Process.Start("https://github.com/muhwyndhamhp/");
+            linkLabel1.LinkVisited = true;
+        }
+
 
         private void button2_Click(object sender, EventArgs e)
         {

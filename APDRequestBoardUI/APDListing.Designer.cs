@@ -60,6 +60,7 @@
             this.numericUpDown8 = new System.Windows.Forms.NumericUpDown();
             this.sqLiteCommand1 = new System.Data.SQLite.SQLiteCommand();
             this.apdListBox = new NishBox.MultiLineListBox();
+            this.linkLabel1 = new System.Windows.Forms.LinkLabel();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown3)).BeginInit();
@@ -94,9 +95,10 @@
             // 
             // PersonName
             // 
+            this.PersonName.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.PersonName.Location = new System.Drawing.Point(593, 89);
             this.PersonName.Name = "PersonName";
-            this.PersonName.Size = new System.Drawing.Size(361, 33);
+            this.PersonName.Size = new System.Drawing.Size(361, 27);
             this.PersonName.TabIndex = 2;
             this.PersonName.TextChanged += new System.EventHandler(this.PersonName_TextChanged);
             // 
@@ -127,9 +129,10 @@
             // PersonAddress
             // 
             this.PersonAddress.AcceptsTab = true;
+            this.PersonAddress.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.PersonAddress.Location = new System.Drawing.Point(593, 155);
             this.PersonAddress.Name = "PersonAddress";
-            this.PersonAddress.Size = new System.Drawing.Size(361, 33);
+            this.PersonAddress.Size = new System.Drawing.Size(361, 27);
             this.PersonAddress.TabIndex = 2;
             // 
             // label5
@@ -146,9 +149,10 @@
             // PersonEmail
             // 
             this.PersonEmail.AcceptsTab = true;
+            this.PersonEmail.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.PersonEmail.Location = new System.Drawing.Point(593, 286);
             this.PersonEmail.Name = "PersonEmail";
-            this.PersonEmail.Size = new System.Drawing.Size(361, 33);
+            this.PersonEmail.Size = new System.Drawing.Size(361, 27);
             this.PersonEmail.TabIndex = 4;
             // 
             // label6
@@ -166,9 +170,10 @@
             // PersonPhoneNumber
             // 
             this.PersonPhoneNumber.AcceptsTab = true;
+            this.PersonPhoneNumber.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.PersonPhoneNumber.Location = new System.Drawing.Point(593, 220);
             this.PersonPhoneNumber.Name = "PersonPhoneNumber";
-            this.PersonPhoneNumber.Size = new System.Drawing.Size(361, 33);
+            this.PersonPhoneNumber.Size = new System.Drawing.Size(361, 27);
             this.PersonPhoneNumber.TabIndex = 3;
             // 
             // label7
@@ -185,19 +190,21 @@
             // 
             // RAPDItem1
             // 
+            this.RAPDItem1.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.RAPDItem1.FormattingEnabled = true;
             this.RAPDItem1.Location = new System.Drawing.Point(593, 376);
             this.RAPDItem1.Name = "RAPDItem1";
-            this.RAPDItem1.Size = new System.Drawing.Size(258, 33);
+            this.RAPDItem1.Size = new System.Drawing.Size(258, 28);
             this.RAPDItem1.TabIndex = 5;
             this.RAPDItem1.SelectedIndexChanged += new System.EventHandler(this.RAPDItem1_SelectedIndexChanged);
             // 
             // PAPDItem1
             // 
+            this.PAPDItem1.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.PAPDItem1.FormattingEnabled = true;
             this.PAPDItem1.Location = new System.Drawing.Point(593, 579);
             this.PAPDItem1.Name = "PAPDItem1";
-            this.PAPDItem1.Size = new System.Drawing.Size(258, 33);
+            this.PAPDItem1.Size = new System.Drawing.Size(258, 28);
             this.PAPDItem1.TabIndex = 13;
             this.PAPDItem1.SelectedIndexChanged += new System.EventHandler(this.comboBox2_SelectedIndexChanged);
             // 
@@ -230,109 +237,123 @@
             // 
             // RAPDItem2
             // 
+            this.RAPDItem2.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.RAPDItem2.FormattingEnabled = true;
             this.RAPDItem2.Location = new System.Drawing.Point(593, 416);
             this.RAPDItem2.Name = "RAPDItem2";
-            this.RAPDItem2.Size = new System.Drawing.Size(258, 33);
+            this.RAPDItem2.Size = new System.Drawing.Size(258, 28);
             this.RAPDItem2.TabIndex = 7;
             // 
             // RAPDItem4
             // 
+            this.RAPDItem4.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.RAPDItem4.FormattingEnabled = true;
             this.RAPDItem4.Location = new System.Drawing.Point(593, 495);
             this.RAPDItem4.Name = "RAPDItem4";
-            this.RAPDItem4.Size = new System.Drawing.Size(258, 33);
+            this.RAPDItem4.Size = new System.Drawing.Size(258, 28);
             this.RAPDItem4.TabIndex = 11;
             // 
             // RAPDItem3
             // 
+            this.RAPDItem3.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.RAPDItem3.FormattingEnabled = true;
             this.RAPDItem3.Location = new System.Drawing.Point(593, 455);
             this.RAPDItem3.Name = "RAPDItem3";
-            this.RAPDItem3.Size = new System.Drawing.Size(258, 33);
+            this.RAPDItem3.Size = new System.Drawing.Size(258, 28);
             this.RAPDItem3.TabIndex = 9;
             // 
             // PAPDItem4
             // 
+            this.PAPDItem4.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.PAPDItem4.FormattingEnabled = true;
             this.PAPDItem4.Location = new System.Drawing.Point(593, 697);
             this.PAPDItem4.Name = "PAPDItem4";
-            this.PAPDItem4.Size = new System.Drawing.Size(258, 33);
+            this.PAPDItem4.Size = new System.Drawing.Size(258, 28);
             this.PAPDItem4.TabIndex = 20;
             this.PAPDItem4.SelectedIndexChanged += new System.EventHandler(this.comboBox4_SelectedIndexChanged);
             // 
             // PAPDItem3
             // 
+            this.PAPDItem3.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.PAPDItem3.FormattingEnabled = true;
             this.PAPDItem3.Location = new System.Drawing.Point(593, 657);
             this.PAPDItem3.Name = "PAPDItem3";
-            this.PAPDItem3.Size = new System.Drawing.Size(258, 33);
+            this.PAPDItem3.Size = new System.Drawing.Size(258, 28);
             this.PAPDItem3.TabIndex = 18;
             this.PAPDItem3.SelectedIndexChanged += new System.EventHandler(this.comboBox5_SelectedIndexChanged);
             // 
             // PAPDItem2
             // 
+            this.PAPDItem2.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.PAPDItem2.FormattingEnabled = true;
             this.PAPDItem2.Location = new System.Drawing.Point(593, 618);
             this.PAPDItem2.Name = "PAPDItem2";
-            this.PAPDItem2.Size = new System.Drawing.Size(258, 33);
+            this.PAPDItem2.Size = new System.Drawing.Size(258, 28);
             this.PAPDItem2.TabIndex = 15;
             this.PAPDItem2.SelectedIndexChanged += new System.EventHandler(this.comboBox6_SelectedIndexChanged);
             // 
             // numericUpDown1
             // 
+            this.numericUpDown1.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.numericUpDown1.Location = new System.Drawing.Point(857, 376);
             this.numericUpDown1.Name = "numericUpDown1";
-            this.numericUpDown1.Size = new System.Drawing.Size(97, 33);
+            this.numericUpDown1.Size = new System.Drawing.Size(97, 27);
             this.numericUpDown1.TabIndex = 23;
             // 
             // numericUpDown2
             // 
+            this.numericUpDown2.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.numericUpDown2.Location = new System.Drawing.Point(857, 417);
             this.numericUpDown2.Name = "numericUpDown2";
-            this.numericUpDown2.Size = new System.Drawing.Size(97, 33);
+            this.numericUpDown2.Size = new System.Drawing.Size(97, 27);
             this.numericUpDown2.TabIndex = 24;
             // 
             // numericUpDown3
             // 
+            this.numericUpDown3.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.numericUpDown3.Location = new System.Drawing.Point(857, 456);
             this.numericUpDown3.Name = "numericUpDown3";
-            this.numericUpDown3.Size = new System.Drawing.Size(97, 33);
+            this.numericUpDown3.Size = new System.Drawing.Size(97, 27);
             this.numericUpDown3.TabIndex = 25;
             // 
             // numericUpDown4
             // 
+            this.numericUpDown4.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.numericUpDown4.Location = new System.Drawing.Point(857, 495);
             this.numericUpDown4.Name = "numericUpDown4";
-            this.numericUpDown4.Size = new System.Drawing.Size(97, 33);
+            this.numericUpDown4.Size = new System.Drawing.Size(97, 27);
             this.numericUpDown4.TabIndex = 26;
             // 
             // numericUpDown5
             // 
+            this.numericUpDown5.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.numericUpDown5.Location = new System.Drawing.Point(857, 580);
             this.numericUpDown5.Name = "numericUpDown5";
-            this.numericUpDown5.Size = new System.Drawing.Size(97, 33);
+            this.numericUpDown5.Size = new System.Drawing.Size(97, 27);
             this.numericUpDown5.TabIndex = 27;
             // 
             // numericUpDown6
             // 
+            this.numericUpDown6.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.numericUpDown6.Location = new System.Drawing.Point(857, 618);
             this.numericUpDown6.Name = "numericUpDown6";
-            this.numericUpDown6.Size = new System.Drawing.Size(97, 33);
+            this.numericUpDown6.Size = new System.Drawing.Size(97, 27);
             this.numericUpDown6.TabIndex = 28;
             // 
             // numericUpDown7
             // 
+            this.numericUpDown7.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.numericUpDown7.Location = new System.Drawing.Point(857, 657);
             this.numericUpDown7.Name = "numericUpDown7";
-            this.numericUpDown7.Size = new System.Drawing.Size(97, 33);
+            this.numericUpDown7.Size = new System.Drawing.Size(97, 27);
             this.numericUpDown7.TabIndex = 29;
             // 
             // numericUpDown8
             // 
+            this.numericUpDown8.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.numericUpDown8.Location = new System.Drawing.Point(857, 698);
             this.numericUpDown8.Name = "numericUpDown8";
-            this.numericUpDown8.Size = new System.Drawing.Size(97, 33);
+            this.numericUpDown8.Size = new System.Drawing.Size(97, 27);
             this.numericUpDown8.TabIndex = 30;
             // 
             // sqLiteCommand1
@@ -342,7 +363,7 @@
             // apdListBox
             // 
             this.apdListBox.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawVariable;
-            this.apdListBox.Font = new System.Drawing.Font("Cascadia Mono", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.apdListBox.Font = new System.Drawing.Font("Cascadia Mono", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.apdListBox.FormattingEnabled = true;
             this.apdListBox.Location = new System.Drawing.Point(29, 77);
             this.apdListBox.Name = "apdListBox";
@@ -350,12 +371,24 @@
             this.apdListBox.Size = new System.Drawing.Size(536, 759);
             this.apdListBox.TabIndex = 31;
             // 
+            // linkLabel1
+            // 
+            this.linkLabel1.AutoSize = true;
+            this.linkLabel1.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.linkLabel1.Location = new System.Drawing.Point(26, 9);
+            this.linkLabel1.Name = "linkLabel1";
+            this.linkLabel1.Size = new System.Drawing.Size(523, 17);
+            this.linkLabel1.TabIndex = 32;
+            this.linkLabel1.TabStop = true;
+            this.linkLabel1.Text = "Anggota (satu-satunya) : Muhammad Wyndham Haryata Permana (15/379174/TK/43116)";
+            // 
             // APDListing
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(977, 858);
+            this.Controls.Add(this.linkLabel1);
             this.Controls.Add(this.apdListBox);
             this.Controls.Add(this.numericUpDown8);
             this.Controls.Add(this.numericUpDown7);
@@ -438,6 +471,7 @@
         private System.Windows.Forms.NumericUpDown numericUpDown8;
         private System.Data.SQLite.SQLiteCommand sqLiteCommand1;
         private NishBox.MultiLineListBox apdListBox;
+        private System.Windows.Forms.LinkLabel linkLabel1;
     }
 }
 
