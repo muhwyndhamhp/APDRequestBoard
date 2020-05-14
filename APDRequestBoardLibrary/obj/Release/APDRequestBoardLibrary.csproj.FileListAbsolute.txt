@@ -1,0 +1,12 @@
+C:\Users\wyndh\source\repos\APDRequestBoard\APDRequestBoardLibrary\bin\Release\APDRequestBoardLibrary.dll
+C:\Users\wyndh\source\repos\APDRequestBoard\APDRequestBoardLibrary\bin\Release\APDRequestBoardLibrary.pdb
+C:\Users\wyndh\source\repos\APDRequestBoard\APDRequestBoardLibrary\bin\Release\Dapper.dll
+C:\Users\wyndh\source\repos\APDRequestBoard\APDRequestBoardLibrary\bin\Release\System.Data.SQLite.dll
+C:\Users\wyndh\source\repos\APDRequestBoard\APDRequestBoardLibrary\bin\Release\Dapper.xml
+C:\Users\wyndh\source\repos\APDRequestBoard\APDRequestBoardLibrary\bin\Release\System.Data.SQLite.xml
+C:\Users\wyndh\source\repos\APDRequestBoard\APDRequestBoardLibrary\bin\Release\System.Data.SQLite.dll.config
+C:\Users\wyndh\source\repos\APDRequestBoard\APDRequestBoardLibrary\obj\Release\APDRequestBoardLibrary.csprojAssemblyReference.cache
+C:\Users\wyndh\source\repos\APDRequestBoard\APDRequestBoardLibrary\obj\Release\APDRequestBoardLibrary.csproj.CoreCompileInputs.cache
+C:\Users\wyndh\source\repos\APDRequestBoard\APDRequestBoardLibrary\obj\Release\APDRequestBoardLibrary.csproj.CopyComplete
+C:\Users\wyndh\source\repos\APDRequestBoard\APDRequestBoardLibrary\obj\Release\APDRequestBoardLibrary.dll
+C:\Users\wyndh\source\repos\APDRequestBoard\APDRequestBoardLibrary\obj\Release\APDRequestBoardLibrary.pdb
